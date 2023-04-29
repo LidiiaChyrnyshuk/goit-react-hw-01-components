@@ -1,0 +1,32 @@
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  padding: 5px;
+}
+.avatar {
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.stats {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.profile li {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(243, 231, 64);
+  border-radius: 4px;
+  padding: 5px;
+}
